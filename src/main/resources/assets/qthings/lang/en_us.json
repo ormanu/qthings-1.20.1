@@ -1,0 +1,11 @@
+{
+  "item.qthings.quetinomium":"Quetinomium Ingot",
+  "item.qthings.qtaxe":"Quetinomium Axe",
+  "enchantment.qthings.weakin": "Weakin",
+  "enchantment.qthings.slowing": "Slowing",
+  "item.qthings.qtscythe":"Quetinomium Scythe",
+  "enchantment.qthings.slowing.desc": "Slows target for a small amount of time on hit",
+  "enchantment.qthings.weakin.desc": "Has a 50% chance to give weakness for a small amount of time to target",
+  "item.qthings.hellfork" : "Hellfork",
+  "item.qthings.soulfork" : "Soulfork"
+}

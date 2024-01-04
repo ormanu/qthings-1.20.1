@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "qthings",
+	"version": "${version}",
+	"name": "QThings",
+	"description": "A mod about custom weapons, enchants and all sorts of things because I am bored.",
+	"authors": [
+		"Queexy"
+	],
+	"contact": {
+		"homepage": "https://www.instagram.com/matei_orman/",
+		"sources": "https://www.instagram.com/matei_orman/"
+	},
+	"license": "MIT",
+	"icon": "assets/qthings/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"ormanu.qthings.QThingsClient"
+		],
+		"main": [
+			"ormanu.qthings.QThings"
+		],
+		"fabric-datagen": [
+			"ormanu.qthings.QThingsDataGenerator"
+		]
+	},
+	"mixins": [
+		"qthings.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.1",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

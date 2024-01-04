@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #O",
+    " n#",
+    "T  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:soul_lantern"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "n": {
+      "item": "qthings:quetinomium"
+    },
+    "T": {
+      "item": "minecraft:trident"
+    }
+  },
+  "result": {
+    "item":"qthings:soulfork"
+  }
+}

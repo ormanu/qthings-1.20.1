@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #O",
+        " n#",
+        "T  "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blaze_powder"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        },
+        "n": {
+            "item": "qthings:quetinomium"
+        },
+        "T": {
+            "item": "minecraft:trident"
+        }
+    },
+    "result": {
+        "item":"qthings:hellfork"
+    }
+}
