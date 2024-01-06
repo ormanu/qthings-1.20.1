@@ -7,5 +7,6 @@
   "enchantment.qthings.slowing.desc": "Slows target for a small amount of time on hit",
   "enchantment.qthings.weakin.desc": "Has a 50% chance to give weakness for a small amount of time to target",
   "item.qthings.hellfork" : "Hellfork",
-  "item.qthings.soulfork" : "Soulfork"
+  "item.qthings.soulfork" : "Soulfork",
+  "item.qthings.qtglaive" : "Quetinomium Glaive"
 }

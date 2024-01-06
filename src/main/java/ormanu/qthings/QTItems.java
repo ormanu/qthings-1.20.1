@@ -26,6 +26,7 @@ public class QTItems {
     public static final Set<QTTridentItem> ALL_TRIDENTS = new ReferenceOpenHashSet<>();
     public static final Item Quetinomium = registerItem("quetinomium", new Item(new FabricItemSettings()));
     public static final Item QT_Scythe = registerItem("qtscythe", new SwordItem(QTToolMaterial.Quetinomium,6,-3f,new FabricItemSettings().fireproof()));
+    public static final Item QT_Glaive = registerItem("qtglaive", new SwordItem(QTToolMaterial.Quetinomium, 6, -2f, new FabricItemSettings().fireproof()));
     public static Item Hellfork;
     public static Item Soulfork;
 
@@ -40,6 +41,7 @@ public class QTItems {
         entries.add(QT_Scythe);
         entries.add(Hellfork);
         entries.add(Soulfork);
+        entries.add(QT_Glaive);
     }
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM,new Identifier(QThings.MOD_ID, name), item);

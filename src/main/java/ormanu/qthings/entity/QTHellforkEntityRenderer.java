@@ -8,7 +8,6 @@ import net.minecraft.entity.projectile.TridentEntity;
 import net.minecraft.util.Identifier;
 import ormanu.qthings.QThings;
 import ormanu.qthings.QThingsClient;
-
 @Environment(EnvType.CLIENT)
 public class QTHellforkEntityRenderer extends TridentEntityRenderer {
     private final QTTridentModel model;
