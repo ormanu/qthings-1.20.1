@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #O",
+    " n#",
+    "T  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "O": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "n": {
+      "item": "qthings:quetinomium"
+    },
+    "T": {
+      "item": "minecraft:netherite_sword"
+    }
+  },
+  "result": {
+    "item":"qthings:qtglaive"
+  }
+}

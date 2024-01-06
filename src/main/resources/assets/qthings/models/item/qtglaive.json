@@ -1,0 +1,22 @@
+{
+  "parent": "qthings:item/model_glaive",
+  "textures": {
+    "layer0": "qthings:item/qtglaive"
+  },
+  "display": {
+    "head": {
+      "rotation": [0, 0, 180],
+      "translation": [-1, 1, 0.5],
+      "scale": [2, 2, 0.5]
+    },
+    "ground": {
+      "translation": [0, 2, 0],
+      "scale": [1.2, 1.2, 0.5]
+    },
+    "inventory": {
+      "rotation": [0, 180, 0],
+      "translation": [0, 1, 0],
+      "scale": [1, 1, 1]
+    }
+  }
+}
